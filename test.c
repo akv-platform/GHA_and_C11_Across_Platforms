@@ -28,7 +28,7 @@ int main(void)
 	printf("round(2.5) (3) %.0f\n", round(2.5f));
 		
 	// Should print 4 on -std=c11
-	printf("3.5 (4) %.0f\n", 3.5f);
+	printf("f 3.5 (4) %.0f\n", 3.5f);
 	
 	// Should print 3
 	printf("round(3.5) (4) %.0f\n", round(3.5f));
